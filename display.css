@@ -1,0 +1,183 @@
+/* Resets some browswer defaults that might interfere with styling */
+
+h1, p, div, ul {
+  padding: 0px; margin: 0px;
+}
+
+html {
+  background: #f2f2f2 none repeat scroll 0 0;
+  font-family: "Trebuchet MS","Trebuchet-MS",Arial,Helvetica,sans-serif;
+  font-size: 13px;
+}
+
+h1 {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 34px;
+  margin: 0px;
+}
+
+p, h1, ul {
+  margin-bottom: 10px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 3px;
+  margin-left: 5px;
+}
+
+#page-wrapper {
+  width: 920px;
+  background-color: white;
+  padding: 30px 25px 25px;
+  margin: 0px auto;
+}
+
+#product-wrapper {
+  background: #f2f2f2 none repeat scroll 0 0;
+  border-radius: 5px;
+  padding: 25px 22px 15px;
+
+}
+
+.product {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 4px;
+  line-height: 130%;
+  margin: 0 0 10px;
+  padding: 8px;
+  position: relative;
+}
+
+.clear {
+  clear: both;
+}
+
+.thumb {
+  float: left;
+  text-align: left;
+  width: 400px;
+}
+
+.thumb img {
+  width: 400px;
+}
+
+.product-contents {
+  min-height: 200px;
+  color: #000;
+  float: right;
+  padding: 5px 0 0 5px;
+  width: 440px;
+}
+
+.purchase-button {
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.price-selector {
+  margin-right: 50px;
+}
+
+.price-bold {
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 60px;
+}
+
+.price-line {
+
+}
+
+.close,
+.modal-open {
+  cursor: pointer;
+}
+
+.modal-open img {
+  width: 20px;
+  margin-top: 10px;
+}
+
+/*.modal {
+  position: fixed;
+    top: 0px;
+    left: 0px;
+  background-color: background: rgba(0, 0, 0, 0.5);
+}*/
+
+
+#modal {
+  position: fixed;
+    top: 0px;
+    left: 0px;
+  border: 1px solid green;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hide {
+  display: none;
+}
+
+#modal div {
+  position: relative;
+  width: 650px;
+  border: 0px solid green;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  background-color: white;
+  overflow: auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#modal div img {
+  position: relative;
+  left: 0px;
+  display: block;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0px solid red;
+}
+
+#modal div.close {
+  background-color: none;
+  color: grey;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  position: absolute;
+    top: 0px;
+    right: 10px;
+  width: 20px;
+  height: 20px;
+  margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
